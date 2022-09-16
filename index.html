@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>test_03</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-title">
+        <h1>hello from space</h1>
+      </div>
+      <div class="main-container">
+        <div id="sideNav" class="sidenav">
+          
+          <div class="menu">
+            <p>Choose dimensions for an image</p>
+            <button class="btn" >800x500
+              <label class="switch">
+                <input type="checkbox" id="CheckBox1" onclick='checkValue()'>
+                <span class="slider"></span>
+              </label>
+            </button>
+            <button class="btn" >500x300
+              <label class="switch">
+                <input type="checkbox" id="CheckBox2" onclick='checkValue()'>
+                <span class="slider"></span>
+              </label>
+            </button>
+            <button class="btn" >290x170
+              <label class="switch">
+                <input type="checkbox" id="CheckBox3" onclick='checkValue()'>
+                <span class="slider"></span>
+              </label>
+            </button>
+          </div>
+        </div>
+
+        <div id="main-content">
+            <div class="image-boxes">
+                <img src="img/img (1).jpg" id="image1" class="image" style="display: none;" />
+                <img src="img/img (5).jpg" id="image2" class="image" style="display: none" />
+                <img src="img/img (6).jpg" id="image3" class="image" />
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="footer">
+      <p>By Mariam Nozadze</p>
+    </div> -->
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  </body>
+</html>
